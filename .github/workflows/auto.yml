@@ -1,9 +1,9 @@
 name: Auto
 
-on:
-  schedule:
-    - cron: "35 6 * * *" # 日本時間10:30,イギリス時間に合わせてマイナス9時間
-  workflow_dispatch:
+# on:
+#   schedule:
+#     - cron: "35 6 * * *" # 日本時間10:30,イギリス時間に合わせてマイナス9時間
+#   workflow_dispatch:
 
 env:
   DIFY_TOKENS: ${{ secrets.DIFY_TOKENS }}
